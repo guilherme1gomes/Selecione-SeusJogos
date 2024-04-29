@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+body{
+ 
+}
+
+header{
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 1000;
+    background-color: white;
+    width: 100%;
+}
+
+header div img{
+    max-width: 100%;
+    width: 50px;
+    margin-right: 40px;
+}
+
+.carrinho{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    border: 2px solid rgb(4, 187, 4);
+    color: black;
+    padding: 8px;
+    font-family: "Space Grotesk", sans-serif;
+    border-radius: 15px;
+}
+
+.fa-cart-shopping:hover{
+    color: rgb(4, 187, 4);
+}
+
+.alter{
+    margin-right: 30px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 500;
+    position: relative;
+}
+
+.alter::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(7, 7, 151); 
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transition: transform 0.5s ease; 
+  }
+  
+  a:hover::after {
+    transform: scaleX(0.5);
+  }
+
+.container1{
+    height: 450px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    background: url('https://assets.xboxservices.com/assets/f2/09/f2093a9f-81ef-4ddd-9128-7e409ab3e6ad.jpg?n=Red-Dead-Redemption-II_GLP-Page-Hero-1084_1920x1080.jpg');
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.text{
+    margin-top: 100px;
+}
+
+.container1 h1{
+    color: white;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 44px;
+    max-width: 400px;
+    margin-left: 70px;
+}
+
+.container1 a{
+    font-family: "Space Grotesk", sans-serif;
+    color: white;
+    border-bottom: 2px solid rgb(4, 187, 4);
+    width: 90px;
+    font-size: 22px;
+    margin-left: 70px;
+    margin-top: 200px;
+}
+
+.degrade {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60px; 
+    background: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
+}
+
+.container2{
+    height: 300px;
+    font-family: "Space Grotesk", sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.outros{
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.outros h1{
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 44px;
+    padding-top: 20px;
+    padding-left: 30px;
+    border-bottom: 3px solid rgb(4, 187, 4);
+    width: 400px;
+}
+
+.cards{
+ text-align: center;
+ display: flex;
+ flex-direction: row;
+}
+
+.card button{
+    background: transparent;
+    border: none;
+    padding: 10px;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 700;
+    border: 2px solid rgb(4, 187, 4);
+    margin: 10px;
+    cursor: pointer;
+}
+
+.card button:hover{
+    background-color: rgb(4, 187, 4);
+    color: white;
+}
+
+.card h3 h4{
+    margin: 10px;
+}
+
+.card{
+    width: 200px;
+    height: 280px;
+    margin-right: 20px;
+}
+
+.card img{
+    width: 120px;
+    border-radius: 15px;
+}
+
+.remove-from-cart{
+    background: transparent;
+    border: none;
+    padding: 10px;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 700;
+    border: 2px solid rgb(4, 187, 4);
+    margin: 10px;
+}
+
+.cart-items-container{
+    text-align: center;
+ display: flex;
+ align-items: center;
+ flex-direction: row;
+ height: 300px;
+
+
+}
+
+img {
+    width: 100px;
+}
+
+h3{
+    font-family: "Space Grotesk", sans-serif;
+    margin: 10px; 
+}
+
+h4{
+    font-family: "Space Grotesk", sans-serif;
+    margin: 10px; 
+}
+
+#car{
+    height: 100px;
+    text-align: center;
+}
+
+#car h1{
+    font-family: "Space Grotesk", sans-serif;
+}
+
+#car button{
+    background: transparent;
+    border: none;
+    padding: 10px;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 700;
+    border: 2px solid rgb(4, 187, 4);
+    margin: 10px;
+    cursor: pointer;
+}
